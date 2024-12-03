@@ -468,7 +468,7 @@ FROM  OPENROWSET
 		(
 			[OptionSetName] [varchar](max),
 			[Option] [bigint],
-			[IsUserLocalizedLabel] [bit],
+			[IsUserLocalizedLabel] [bit], -- [varchar](max)
 			[LocalizedLabelLanguageCode] [bigint],
 			[LocalizedLabel] [varchar](max),
 			[GlobalOptionSetName] [varchar](max),
